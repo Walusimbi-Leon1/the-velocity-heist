@@ -1,0 +1,32 @@
+name: Book Writing
+
+on:
+  schedule:
+    - cron: "0 6 */3 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-book-writing
+  cancel-in-progress: false
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Write next chapter
+        run: node scripts/write-book.js
+        env:
+          OPENCODE_API_KEY:   ${{ secrets.OPENCODE_API_KEY }}
+          OPENCODE_API_KEY_2: ${{ secrets.OPENCODE_API_KEY_2 }}
+          OPENCODE_API_KEY_3: ${{ secrets.OPENCODE_API_KEY_3 }}
+          OPENCODE_API_KEY_4: ${{ secrets.OPENCODE_API_KEY_4 }}
+          OPENCODE_API_KEY_5: ${{ secrets.OPENCODE_API_KEY_5 }}
+          GH_PUSH_TOKEN:      ${{ secrets.GH_PUSH_TOKEN }}
+          MODEL: big-pickle

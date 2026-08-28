@@ -1,0 +1,23 @@
+{
+  "title": "The Velocity Heist",
+  "subtitle": "Floor It. Or Be Forgotten.",
+  "genre": "Competition / Adrenaline Adventure",
+  "author": "Walusimbi Leon (SGSS)",
+  "description": "Ten crews. One continent. A golden garage worth more than a country. Each leg is a timed, no-rules race through a different city — drift through Hong Kong, jump the canals of Amsterdam, outrun the law in Mexico City. The slowest crew every round is stripped of their car and sent home. The first crew to the final garage keeps the keys, the cars, and the crown. Speed is the only mercy.",
+  "style": "High-octane, tire-screeching action prose. Cinematic set-pieces, pit-stop strategy, trash-talk radio. Mr. Beast's over-the-top challenges meet a street-racing epic.",
+  "characters": "The Blaze Twins (reckless drivers who finish first or burn), Cable (navigator who never gets lost), El Tapado (masked driver nobody has seen), The Mechanic (keeps dying cars alive), Vega (ex-cop racing for a pardon). Crews of two, bonded by road and debt.",
+  "setting": "Real-world cities turned into closed courses; checkpoints appear via hologram, the map resets each dawn. The golden garage is a myth until the final mile.",
+  "notes": "Every chapter = a new city + a new impossible driving challenge. Eliminations are literal. The garage is the grand prize.",
+  "chapterTitle": "Chapter",
+  "mdFiles": [
+    "book.md"
+  ],
+  "htmlFiles": [
+    "book.html"
+  ],
+  "indexInject": null,
+  "mdHeadingLevel": 2,
+  "targetWords": 2000,
+  "apiTimeoutMs": 600000,
+  "maxTokens": 16384
+}
