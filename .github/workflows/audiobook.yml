@@ -1,0 +1,114 @@
+name: Audiobook Generation
+
+on:
+  schedule:
+    # Every 3 days, staggered hour per book to spread CI load.
+    # This default is 07:00 UTC; each book repo overrides its own hour.
+    - cron: '0 10 */3 * *'
+  workflow_dispatch:
+
+# ── Self-contained audiobook pipeline (no VPS) ───────────────────────────────
+# Runs Kokoro-82M directly on the GitHub Actions runner, generates a single
+# 128kbps MP3 from the book's current book.md, and creates/updates a
+# GitHub release with the MP3 asset. Release tags INCREMENT per generation:
+#   v1.0-audiobook, v2.0-audiobook, v3.0-audiobook, ...
+# so audiobooks accumulate in Releases just like the text editions add on.
+# ──────────────────────────────────────────────────────────────────────────────
+# Secrets required in the repo:
+#   GH_PUSH_TOKEN — GitHub PAT with 'repo' scope (reuse from write-book; already set)
+
+env:
+  BOOK_MD: book.md
+  VOICE: af_heart      # warm, expressive American female
+  SPEED: "0.85"        # 15% slower via ffmpeg atempo
+  BITRATE: "128k"
+
+jobs:
+  generate-audiobook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout book repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PUSH_TOKEN }}
+
+      - name: Read book title
+        id: meta
+        run: |
+          python3 scripts/book-meta.py > title.txt
+          echo "title=$(cat title.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Kokoro + ffmpeg
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install --quiet "kokoro==0.9.4" "numpy<2" scipy 2>&1 | tail -3
+          if ! command -v ffmpeg >/dev/null; then sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; fi
+          ffmpeg -version | head -1
+
+      - name: Determine next release version
+        id: version
+        run: |
+          EXISTING=$(gh release list --limit 100 --json tagName \
+            --repo "${{ github.repository }}" | grep -oE '[0-9]+\.[0-9]+-audiobook' | sort -V | tail -1)
+          if [ -z "$EXISTING" ]; then VER="1.0"; else
+            CUR="${EXISTING%%-audiobook}"
+            MAJ="${CUR%%.*}"; MIN="${CUR#*.}"
+            MIN=$((MIN+1))
+            if [ "$MIN" -ge 10 ]; then MIN=0; MAJ=$((MAJ+1)); fi
+            VER="$MAJ.$MIN"
+          fi
+          echo "version=$VER" >> "$GITHUB_OUTPUT"
+          echo "tag=v${VER}-audiobook" >> "$GITHUB_OUTPUT"
+
+      - name: Generate audiobook (Kokoro)
+        run: |
+          mkdir -p dist
+          python3 scripts/gen-audiobook.py \
+            --input "${{ env.BOOK_MD }}" \
+            --output "dist/track.wav" \
+            --voice "${{ env.VOICE }}"
+
+      - name: Encode to 128kbps MP3 @ 15% slower
+        id: encode
+        run: |
+          ffmpeg -y -i dist/track.wav -af "atempo=${{ env.SPEED }}" -ar 44100 -b:a "${{ env.BITRATE }}" \
+            "dist/${{ github.event.repository.name }}_v${{ steps.version.outputs.version }}.mp3" -loglevel warning
+          ls -lh dist/
+          DUR=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 dist/*.mp3 | awk '{printf "%.1f",$1/60}')
+          echo "duration_min=$DUR" >> "$GITHUB_OUTPUT"
+
+      - name: Build release notes
+        run: |
+          WORDS=$(wc -w < "${{ env.BOOK_MD }}" | awk '{print $1}')
+          CHAPS=$(grep -cE '^#{1,3} ' "${{ env.BOOK_MD }}" || true)
+          python3 scripts/gen-release-notes.py \
+            --title "$(cat title.txt)" \
+            --version "${{ steps.version.outputs.version }}" \
+            --words "$WORDS" --chapters "$CHAPS" \
+            --duration "${{ steps.encode.outputs.duration_min }}" \
+            --voice "${{ env.VOICE }}" --speed "${{ env.SPEED }}" --bitrate "${{ env.BITRATE }}" \
+            > dist/RELEASE.md
+          cat dist/RELEASE.md
+
+      - name: Create / update GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GH_PUSH_TOKEN }}
+        run: |
+          TAG="${{ steps.version.outputs.tag }}"
+          ASSET_NAME="${{ github.event.repository.name }}_v${{ steps.version.outputs.version }}.mp3"
+          if gh release view "$TAG" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            gh release delete-asset "$TAG" "$ASSET_NAME" --repo "${{ github.repository }}" -q || true
+            gh release upload "$TAG" "dist/${ASSET_NAME}" --name "$ASSET_NAME" --repo "${{ github.repository }}"
+            gh release edit "$TAG" --notes-file dist/RELEASE.md --repo "${{ github.repository }}"
+          else
+            gh release create "$TAG" "dist/${ASSET_NAME}" \
+              --title "Audiobook — $(cat title.txt) (v${{ steps.version.outputs.version }})" \
+              --notes-file dist/RELEASE.md \
+              --repo "${{ github.repository }}"
+          fi
+          echo "✅ Released ${{ github.repository }} @ $TAG"
