@@ -322,5 +322,195 @@ Somewhere behind them, El Tapado's Porsche was a silent shadow, slipping through
 
 The Night Race wasn't over. It had barely begun.
 
+## Chapter 16 — The Neon Grave
+
+The rainbow glow of Odaiba grew in the windshield like a fever dream, the artificial island's Ferris wheel spinning slow circles of colored light against the black of Tokyo Bay. Dex's hands were welded to the wheel, his forearms screaming from the constant micro-corrections, the Audi's engine a steady, thrumming heartbeat that had carried them through twelve kilometers of pure darkness and one near-death experience on a ramp over open water.
+
+"Six remain," Sable said, her voice flat. "That means three crews are already on the truck back to wherever they came from. With no cars."
+
+"Don't think about them. Think about the next checkpoint."
+
+Sable's tablet flickered. The hologram that rose from the dash was different this time—no single marker, but a trail of blinking dots snaking through a dense cluster of buildings. The image resolved, and Dex felt his stomach drop.
+
+"Shibuya," he said.
+
+"Shibuya Crossing. The most famous intersection on Earth. Five crosswalks, one giant scramble. And the entire district is the next leg."
+
+"The race director wants us to drive through Shibuya Crossing?"
+
+"Not through it," Sable said, zooming in. The hologram showed a series of gates, each one glowing with a number. "Around it. The checkpoint is a series of five gates. You have to hit them in order, and the shortest path between them is a lap around the crossing itself. Full circuits of the square. Like a roundabout from hell."
+
+"How many laps?"
+
+"Three."
+
+"Three full loops around Shibuya Crossing. With other crews. At night."
+
+"At night, on a closed course, with the whole world watching." Sable pointed to the corners of the hologram, where tiny camera icons flickered. "This is the showpiece leg. The one they'll broadcast. Every drone in Tokyo is going to be hovering over that intersection."
+
+Dex laughed, a short, sharp sound that was half adrenaline, half dread. "So we're not just racing for survival. We're putting on a show."
+
+"Speed is the only mercy, baby. But spectacle is the only currency."
+
+The expressway exit ramp curved down, and the city swallowed them whole. The streets of Shibuya were lined with towering screens, all of them displaying the same thing—a live feed of the intersection ahead, with the five gates glowing in augmented reality, visible only through the car's displays and the drone cameras that followed every crew.
+
+The crossing itself was a cathedral of concrete and neon. Eight lanes of asphalt converging on a single painted plaza, surrounded by department stores and video billboards, the screens casting everything in a shifting kaleidoscope of color—crimson, electric blue, acid green, gold. The gates materialized as glowing arches, each one pulsing with a countdown timer.
+
+"Gate one is at the southwest corner," Sable said. "Gate two at the northeast. Gate three at the east entrance. Gate four at the west. Gate five back at the southwest—it's a loop."
+
+"Three laps. Five gates. One intersection." Dex's fingers drummed the wheel. "What's the catch?"
+
+"The gates are single-use. Once a car passes through, the gate goes down. If you miss your window, you have to wait for the next rotation."
+
+"Rotation?"
+
+The gates began to move. They weren't stationary arches—they were traveling, sliding along tracks embedded in the asphalt, circling the crossing in a slow, deliberate dance. The countdown timers were synchronized. Every thirty seconds, all five gates would align with their starting positions for exactly three seconds. Then they'd slide again, weaving through the intersection in a pattern that was almost certainly designed to cause chaos.
+
+"Gate one aligns in ten seconds," Sable said. "Gate two aligns forty seconds after that. Gate three at one minute ten. Gate four at one minute forty. Gate five at two minutes ten. Then the cycle repeats."
+
+"So we have to hit each gate in sequence, thirty seconds apart, while the gates are moving."
+
+"Correct."
+
+"And the other crews?"
+
+As if on cue, the intersection filled with light. The Bugatti screamed in from the north, its silver body catching the neon like liquid mercury. The Porsche—El Tapado's ghost—slid in from the east, silent as a shadow. Vega's Corvette rumbled in from the south, its headlights cutting through the haze. And behind them, a fourth set of lights—the Evo, its driver a young woman with a buzz cut and a death wish, her car covered in sponsor stickers and battle scars.
+
+"Five crews left," Sable said. "Us, the Bugatti, El Tapado, Vega, and the Evo."
+
+"Where's the sixth?"
+
+The answer came with the roar of an engine that sounded like a war crime. A Maserati MC20, painted matte black, its wheels spitting fire, slammed through a barricade on the east side of the crossing. The driver was a man Dex recognized from the pre-race briefing—a silver-haired Argentine with a scar across his jaw and a smile like a knife wound. The crew called him El Lobo. He'd been quiet all race, lurking in the middle of the pack, never too fast, never too slow. Now he was showing his teeth.
+
+"El Lobo and his navigator," Sable said. "They've been sandbagging."
+
+"Great. So we've got a ghost, a cop, a buzz-cut, a silver bullet, and a wolf. And we're racing through the most famous intersection on Earth, doing laps around a glowing gate system that wants to kill us."
+
+"Don't forget the drones."
+
+Dex looked up. The sky above Shibuya was thick with them—hundreds of quadcopters, their lights blinking in the dark like artificial stars, their cameras recording every second of this madness for the world to see.
+
+"I haven't forgotten," he said. "Let's give them a show."
+
+The countdown on Gate One hit zero. The arch glowed white, and the Bugatti surged forward, its driver threading the needle with surgical precision, the car passing through the gate with centimeters to spare before the arch began to slide again.
+
+"Gate one is moving," Sable said. "Next alignment in twenty seconds. We need to be there when it hits."
+
+Dex floored it. The Audi shot across the crossing, weaving through the painted lanes, the holographic gates flickering around them. The Bugatti was already on Gate Two, its driver showing off now, drifting around the corner of the intersection with the rear end kicked out, the tires smoking, the crowd of drones buzzing overhead like angry bees.
+
+"Gate one is aligning," Sable said. "Now!"
+
+Dex cranked the wheel. The Audi slid sideways, the rear end swinging around, and for a moment, they were perpendicular to the gate, the glowing arch dead ahead. He straightened, hit the gas, and passed through with a millisecond to spare—the arch sliding away behind them as the countdown reset.
+
+"Gate one down. Gate two aligns in forty seconds. We're in second place."
+
+"Behind the Bugatti?"
+
+"Behind the Bugatti. He's already on Gate Three."
+
+The Bugatti was a machine of pure arrogance, its driver taking every gate with a clean, clinical precision that was almost insulting. No flair, no drama. Just speed and accuracy, the car a silver dart through the neon chaos.
+
+"Gate two aligning," Sable said. "But we've got company."
+
+The Maserati was closing fast, El Lobo's face visible through the windshield, that scarred smile fixed on his lips. He pulled up beside the Audi, matching speed, the two cars side by side in the middle of the crossing.
+
+"Don't let him push you wide," Sable said. "The gate is right ahead."
+
+Dex held his line. The Maserati edged closer, its mirror inches from the Audi's. El Lobo was playing chicken, daring Dex to flinch.
+
+"Gate two is aligning in five seconds," Sable said. "If we miss it, we wait thirty seconds and lose a lap."
+
+Dex made a decision. He slammed the brakes. The Maserati shot ahead, El Lobo's eyes widening as he realized what had happened—he was now in the perfect position to take Gate Two, but the arch was on the wrong side of the intersection. He'd have to loop around.
+
+Dex cranked the wheel, the Audi pivoting, and hit the gas. The car surged through the gap between the Maserati and the gate, passing through the arch with a hair's breadth to spare as the countdown hit zero and the gate began to slide away.
+
+"That was reckless," Sable said.
+
+"That was beautiful," Dex corrected. "Gate three?"
+
+"Forty seconds. The Bugatti's already there. And El Tapado is on Gate Four."
+
+The Porsche was a ghost, moving through the intersection with an otherworldly grace, its driver invisible behind the tinted glass. It took Gate Four with a perfect drift, the rear end sweeping wide, the car straightening out and accelerating away before the arch had even finished aligning.
+
+"Who is that guy?" Dex wondered aloud.
+
+"No one knows. That's the point. Gate three in fifteen seconds."
+
+The Bugatti took Gate Three and vanished into the streets beyond Shibuya, its job done for this leg. The Evo was next, the buzz-cut driver taking the gate with a scream of tires and a shower of sparks. El Lobo was recovering, the Maserati looping around the crossing, its engine howling.
+
+"Gate three aligning," Sable said. "Now."
+
+Dex took it clean, the Audi passing through the arch as the countdown hit zero. The hologram flickered, marking the gate as complete.
+
+"One lap down. Two to go."
+
+The second lap was chaos. The gates were moving faster now, their rotation speed increasing with each cycle, the archways sliding through the intersection in an ever-shifting pattern that seemed designed to break minds. El Lobo had caught up, the Maserati and the Audi trading paint as they fought for position. Vega's Corvette was in the mix too, the ex-cop driving with a controlled fury that was almost frightening to watch.
+
+"Gate one aligns in ten seconds," Sable said. "But El Lobo is going to be there first."
+
+"Let him have it. We'll take the next rotation."
+
+The Maserati took Gate One, and Dex let him go, pulling back, letting the arch slide away. The countdown reset. Thirty seconds. The intersection was a whirlwind of light and sound, the drones buzzing overhead, the billboards flashing with live footage of the race itself—Dex caught a glimpse of the Audi on a massive screen, the car a blur of red and black, and for a moment, he felt like he was watching someone else.
+
+"Gate one aligning," Sable said. "Now."
+
+The Audi surged forward, passing through the arch as it began to slide. The countdown hit zero just as the rear bumper cleared the glow.
+
+"Gate two in forty seconds. We're on pace."
+
+"On pace for what?"
+
+"Second place. The Bugatti's already finished all three laps. He's gone."
+
+"Of course he is." Dex gritted his teeth. "We're not racing for first this leg. We're racing for survival."
+
+"El Tapado is on his final lap. Vega is on his second. El Lobo is on his second. The Evo is on her second. We're on our second. It's tight."
+
+The third lap was a knife fight. Every crew was pushing, the intersection a maelstrom of engines and tires, the gates sliding faster, the countdowns shorter. The Evo clipped a gate as it moved, the buzz-cut driver's car spinning, the rear end slamming into a barrier with a crunch of metal. She was out—the car disabled, the crew eliminated.
+
+"Four crews left," Sable said. "Us, El Tapado, Vega, and El Lobo."
+
+"Where's the Bugatti?"
+
+"Finished. He's waiting at the next checkpoint."
+
+"Of course he is."
+
+Gate five was the last one—the loop back to the southwest corner. Dex took it with everything he had, the Audi's engine screaming, the tires smoking, the arch glowing ahead. He passed through with two seconds to spare, and Sable's voice was triumphant.
+
+"Three laps complete. We're done."
+
+"Where do we finish?"
+
+The hologram showed a marker at the far edge of Shibuya—a rooftop parking garage, the finish line glowing green. Dex floored it, the Audi tearing through the neon streets, the drones following like a swarm of hungry birds.
+
+The parking garage was a concrete monolith, its ramps spiraling upward into the night. Dex took the entrance at speed, the Audi's tires screeching as he climbed, level after level, the city falling away below.
+
+At the top, the finish line was a holographic banner, glowing green against the dark sky. The Bugatti was already there, parked, its driver leaning against the hood with a smug smile. El Tapado's Porsche was pulling in behind them, silent as ever. Vega's Corvette rumbled up a moment later.
+
+The Maserati never arrived.
+
+The race director's voice crackled over the comms. "Four crews eliminated. Four remain. The next leg begins at dawn. You'll have twelve hours to rest, repair, and prepare. The destination: Seoul. The challenge: the Gwangjang Market. A maze of stalls, alleys, and dead ends. And the twist this time?"
+
+The director paused. The silence stretched, heavy with anticipation.
+
+"The course is invisible. No holograms. No markers. You'll have to find your own way."
+
+The comms went dead.
+
+Dex looked at Sable. She was staring at her tablet, her face pale.
+
+"What is it?" he asked.
+
+She turned the screen toward him. It showed a map of Seoul, the market district highlighted in red. And in the center, pulsing like a heartbeat, was a single word.
+
+"Garage."
+
+"We're racing for the garage," Dex said.
+
+"Not yet," Sable said. "But we're getting close."
+
+The night was over. The dawn was coming. And somewhere in Seoul, a golden garage was waiting to claim its first victims.
+
 ---
 
